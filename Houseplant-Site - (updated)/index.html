@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>The House Plant Site</title>
+        <link rel="stylesheet" href="./Styles/main.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;600&display=swap" rel="stylesheet">
+        <script src="https://unpkg.com/feather-icons"></script>
+        <script src="https://kit.fontawesome.com/c98ae91747.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <header class="navigation">
+            <nav class="nav--bar">
+                <div class="nav--left">
+                    <ul class="nav">
+                        <li><a class="nav-link" href="#">Home</a></li>
+                        <li><a class="nav-link" href="#">Shop</a></li>
+                        <li><a class="nav-link" href="#">Plant Care</a></li>
+                        <li><a class="nav-link" href="#">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav--center">
+                    <h1 class="title">The Houseplant Site</h1>
+                </div>
+                <div class="nav--right">
+                    <form role="search" method="get" class="search-form flex items-center" action="#">
+                        <label class="flex items-center">
+                            <i data-feather="search"></i>
+                            <input type="search" class="search-field" placeholder="Search" name="s">
+                        </label>
+                        <input type="submit" class="search-submit" value="Search">
+                    </form>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <div class="homeIntroduction">
+                <img class="header__image" src="./assets/images/homepage photo.jpg"
+                    alt="Photograph of plants in a smiling pot.">
+                <div class="homeIntroduction__text">
+                    <p class="homeIntroduction__text__a">I have too many plants</p>
+                    <p class="homeIntroduction__text__b">said no-one ever.</p>
+                </div>
+            </div>
+
+
+        </main>
+        <footer>
+            <div class="footer-left_links-social">
+                <label>Follow us:</label>
+                <a href="#" target="blank"><i data-feather="facebook"></i></a>
+                <a href="#" target="blank"><i data-feather="instagram"></i></a>
+                <a href="#" target="blank"><i data-feather="twitter"></i></a>
+                <p class="footer-copyright">© The House Plant Site</p>
+            </div>
+        </footer>
+        <script>
+            feather.replace()
+        </script>
+    </body>
+
+</html>
