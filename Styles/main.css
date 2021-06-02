@@ -1,0 +1,373 @@
+/* Fonts */
+@font-face {
+  font-family: "Manege Demo Light";
+  src: url("../fonts/Manege\ Demo\ Light.otf") format("opentype");
+}
+
+/*.navigation {
+    color: #526235; 
+    width: 100%;
+    align-items: baseline;
+
+}
+
+.navigation__list__item {
+    display: inline-block;
+    margin: 0;
+    padding: 10px;
+}
+
+.leftbox {
+    float: left;
+    width: 30%;
+    padding-top: 20px;
+    
+    margin: 0;
+    font-family: TextMedium;
+    
+}
+
+.middlebox {
+    float: left;
+    text-align: center;
+    width: 40%;
+    padding-top: 0px;
+    font-family: HouseplantTitle;
+    font-size: 40px;
+}
+
+.rightbox {
+   text-align: right;
+   width: 100%;
+   padding-right: 20px;
+   padding-top: 40px;
+   font-family: TextMedium;
+ 
+}
+
+a:link {
+    text-decoration: none;
+    color: #526235; 
+}*/
+
+/* Nav */
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  text-transform: none;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 10px;
+  margin-right: 10px;
+  text-decoration: none;
+  color: #526235;
+}
+
+.nav--bar {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  position: relative;
+  height: 90px;
+  padding: 0 60px;
+  z-index: 1000;
+}
+
+.nav--center {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  font-family: "Manege Demo Light";
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 0.98px;
+  text-transform: uppercase;
+  color: #526235;
+}
+
+.nav--left,
+.nav--right {
+  flex: 1;
+  display: flex;
+}
+
+.nav--right {
+  justify-content: flex-end;
+}
+
+.nav-link {
+  font-family: "Manege Demo Light";
+  font-size: 16px;
+  letter-spacing: 0.2px;
+}
+
+/* Search Bar */
+.flex {
+  display: flex;
+}
+
+.items-center {
+  align-items: center;
+}
+
+input {
+  padding: 0;
+  margin: 0;
+  border: none;
+  overflow: visible;
+}
+
+.search-field {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  font-family: "Manege Demo Light";
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  text-transform: none;
+  color: #526235;
+}
+
+.search-icon {
+  margin-right: 0.25rem;
+}
+
+.fa,
+.fas {
+  font-weight: 600;
+  color: #526235;
+}
+
+.search-submit {
+  background-color: #526235;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  font-family: "Manege Demo Light";
+  font-size: 16px;
+  border-radius: 0.125rem;
+}
+
+.search-form .search-submit {
+  opacity: 0;
+  transition-property: opacity;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-out;
+  transition-delay: 0s;
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.header__image {
+  width: 100%;
+  height: auto;
+  padding-top: 0px;
+}
+
+.introduction {
+  position: relative;
+}
+
+.introduction__text {
+  position: absolute;
+  bottom: 200px;
+  left: 200;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.introduction__text__a {
+  font-family: "Manege Demo Light";
+  font-size: 150px;
+}
+
+.introduction__text__b {
+  font-family: "Manege Demo Light";
+  font-size: 60px;
+}
+
+.introduction__text p {
+  padding: 0px;
+  margin: 0px;
+}
+
+.cheesePlant {
+  display: flex;
+}
+
+.cheesePlant__image {
+  width: 30%;
+  padding-top: 40px;
+}
+
+.cheesePlant__text {
+  padding-top: 40px;
+  width: 60%;
+  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.cheesePlant__title {
+  font-family: "Manege Demo Light";
+  font-size: 60px;
+  color: #526235;
+  align-items: center;
+  justify-content: center;
+}
+
+.cheesePlant__info {
+  font-family: Nunito;
+}
+
+.chineseMoneyPlant {
+  display: flex;
+}
+
+.chineseMoneyPlant__image {
+  width: 30%;
+  padding-top: 40px;
+  padding-left: 300px;
+}
+
+.chineseMoneyPlant__title {
+  font-family: "Manege Demo Light";
+  font-size: 60px;
+  color: #526235;
+}
+
+.chineseMoneyPlantText {
+  align-items: center;
+  justify-content: center;
+  padding-left: 50px;
+}
+
+.chineseMoneyPlant__info {
+  font-family: Nunito;
+}
+
+.succulents {
+  display: flex;
+}
+
+.succulents__image {
+  width: 30%;
+  padding-top: 40px;
+}
+
+.succulents__text {
+  padding-top: 40px;
+  width: 60%;
+  padding-left: 50px;
+  align-items: center;
+  justify-content: center;
+}
+
+.succulents__title {
+  font-family: "Manege Demo Light";
+  font-size: 60px;
+  color: #526235;
+}
+
+.succulents__info {
+  font-family: Nunito;
+}
+
+/*.footer {
+  display: flex;
+  font-family: TextMedium;
+  align-items: center;
+  justify-content: center;
+}
+.socialMedia {
+  width: 25%;
+  padding-top: 40px;
+  margin: 0;
+  width: 2%;
+  height: 2%;
+  display: flex;
+  align-items: center;
+  padding-left: 575px;
+}
+
+.footerInfo {
+  padding-left: 500px;
+  font-family: TextMedium;
+}*/
+
+/* Footer */
+.footer-left_links-social {
+  flex: 1;
+  text-align: center;
+  margin: 2px;
+  color: #526235;
+  padding: 75px;
+}
+
+svg {
+  justify-content: space-between;
+}
+
+label {
+  font-family: "Manege Demo Light";
+  font-size: 24px;
+  letter-spacing: 0.98px;
+}
+
+.footer-copyright {
+  font-family: "Manege Demo Light";
+  text-align: left;
+  font-size: 16px;
+}
+
+.feather {
+  width: 17.75px;
+  height: 17.75px;
+  stroke: #526235;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.homeIntroduction {
+  position: relative;
+}
+
+.homeIntroduction__text {
+  position: absolute;
+  top: 200px;
+  bottom: 200px;
+  color: white;
+  padding-top: 10px;
+}
+
+.homeIntroduction__text__a {
+  font-family: "Manege Demo Light";
+  font-size: 120px;
+  padding-left: 50px;
+}
+
+.homeIntroduction__text__b {
+  font-family: "Manege Demo Light";
+  font-size: 100px;
+  padding-left: 450px;
+}
